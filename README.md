@@ -1,3 +1,10 @@
+# Notes
+a little text writing window
+
+X closes the window
+S saves the text to test.txt
+I changes the colour of the editor background
+press F1 to toggle the bar on the right 
 
 # How to Build
 
@@ -34,7 +41,3 @@ c++ `sdl3-config --cflags` -I .. -I ../.. -I ../../backends
   main.cpp ../../backends/imgui_impl_sdl3.cpp ../../backends/imgui_impl_opengl3.cpp ../../imgui*.cpp
   `sdl3-config --libs` -framework OpenGl -framework CoreFoundation
 ```
-
-## Emscripten
-
-As of 2023-05-30 Emscripten doesn't support SDL3 yet.
